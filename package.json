@@ -1,0 +1,28 @@
+{
+  "name": "folio",
+  "version": "1.0.0",
+  "description": "Webpack Backbone Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "backbone",
+    "barebones",
+  ],
+  "author": "Cody Moniz <cody.moniz+npm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "css-loader": "^0.23.1",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "jquery": "^2.2.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
